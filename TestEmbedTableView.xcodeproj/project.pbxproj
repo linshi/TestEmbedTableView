@@ -14,6 +14,7 @@
 		290265441AF1D50200E6DCB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290265431AF1D50200E6DCB1 /* Images.xcassets */; };
 		290265471AF1D50200E6DCB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290265451AF1D50200E6DCB1 /* LaunchScreen.xib */; };
 		290265531AF1D50200E6DCB1 /* TestEmbedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290265521AF1D50200E6DCB1 /* TestEmbedTableViewTests.m */; };
+		2902655E1AF1D82C00E6DCB1 /* EmbedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2902655D1AF1D82C00E6DCB1 /* EmbedTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2902654C1AF1D50200E6DCB1 /* TestEmbedTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEmbedTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		290265511AF1D50200E6DCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		290265521AF1D50200E6DCB1 /* TestEmbedTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmbedTableViewTests.m; sourceTree = "<group>"; };
+		2902655C1AF1D82C00E6DCB1 /* EmbedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbedTableViewCell.h; sourceTree = "<group>"; };
+		2902655D1AF1D82C00E6DCB1 /* EmbedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbedTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				290265431AF1D50200E6DCB1 /* Images.xcassets */,
 				290265451AF1D50200E6DCB1 /* LaunchScreen.xib */,
 				290265361AF1D50200E6DCB1 /* Supporting Files */,
+				2902655C1AF1D82C00E6DCB1 /* EmbedTableViewCell.h */,
+				2902655D1AF1D82C00E6DCB1 /* EmbedTableViewCell.m */,
 			);
 			path = TestEmbedTableView;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				2902653F1AF1D50200E6DCB1 /* ViewController.m in Sources */,
 				2902653C1AF1D50200E6DCB1 /* AppDelegate.m in Sources */,
 				290265391AF1D50200E6DCB1 /* main.m in Sources */,
+				2902655E1AF1D82C00E6DCB1 /* EmbedTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
